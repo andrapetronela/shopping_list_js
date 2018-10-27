@@ -1,6 +1,7 @@
 var button = document.querySelector("button");
 var input = document.getElementById("input");
 var ol = document.querySelector("ol");
+let reset = document.querySelector("#reset");
 
 function inputLength() {
 	return input.value.length;
@@ -36,7 +37,12 @@ function addListItemAfterEnter(event) {
 	}
 }
 
+function clearList() {
+    ol.textContent = '';
+}
+
 button.addEventListener("click", addListItemAfterClick);
 
 input.addEventListener("keypress", addListItemAfterEnter);
 
+reset.addEventListener("click", clearList);

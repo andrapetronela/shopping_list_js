@@ -60,6 +60,16 @@ input {
     cursor: pointer;
 }
 
+#reset {
+    display: inline-block;
+	border: none;
+	border-radius: none;
+    padding: .5rem;
+	background-color: rgba(246, 36, 89, 0.82);
+	color: #fff;
+    cursor: pointer;
+}
+
 .list_style {
     text-align: left;
     margin: .3rem;
