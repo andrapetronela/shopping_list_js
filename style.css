@@ -57,6 +57,7 @@ input {
     padding: .5rem;
 	background-color: #3FC380;
 	color: #fff;
+    cursor: pointer;
 }
 
 .list_style {
@@ -71,9 +72,11 @@ input {
     background-color: #EF4836;
     color: #fff;
     border: none;
+    border-radius: 2px;
     padding: .1rem .4rem;
     font-family: Roboto;
     font-weight: 200;
+    cursor: pointer;
 }
 
 
